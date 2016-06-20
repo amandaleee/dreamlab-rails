@@ -1,0 +1,8 @@
+h1 add some dreams
+
+= form_for(@dream) do |f| 
+	div
+	  = f.label "Share your dreams."
+	  = f.text_field :description
+	div
+	  = f.submit "Add Now"
